@@ -30,9 +30,9 @@ public class GuessNumber {
             } else if (answer.contains(ask.get(i))) {
                 answerB++;
             }
-            if (answerA == 4) {
-                return answerA + "A" + answerB + "B" + " Win!";
-            }
+//            if (answerA == 4) {
+//                return answerA + "A" + answerB + "B" + " Win!";
+//            }
         }
         return answerA + "A" + answerB + "B";
     }
