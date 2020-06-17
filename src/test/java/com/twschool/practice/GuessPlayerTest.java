@@ -116,7 +116,7 @@ public class GuessPlayerTest {
         assertEquals("猜错了！连赢中断！目前分数是：39", player.play(asList, askList2));
     }
     @Test
-    public void should_return_score_39_when_win_serial_5_and_wrong_once_and_win_serial_3() {
+    public void should_return_score_28_when_win_serial_5_and_wrong_once_and_win_serial_3() {
         Player player = new Player();
         GuessNumber guessNumber = new GuessNumber();
         List<Integer> asList = Arrays.asList(1, 2, 3, 4);
